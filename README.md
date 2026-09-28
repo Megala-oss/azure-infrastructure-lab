@@ -1,48 +1,66 @@
 # Azure Infrastructure Lab ☁️
 
-Hands-on Microsoft Azure infrastructure lab covering virtual machines, networking, security and basic cloud administration.
+Hands-on Microsoft Azure infrastructure project focused on cloud administration, networking, security and PowerShell automation.
 
 ## 🎯 Objective
 
-This project demonstrates practical Azure infrastructure concepts through hands-on labs and automation.
+This project demonstrates practical Azure infrastructure concepts through hands-on labs and automation scripts.
 
 ## ☁️ Azure Services
 
-- Azure Virtual Machines
-- Virtual Networks (VNet)
-- Subnets
-- Network Security Groups (NSG)
-- Storage Accounts
-- Azure Resource Groups
-- Azure Monitor
+* Azure Virtual Machines
+* Azure Virtual Networks (VNet)
+* Subnets
+* Network Security Groups (NSG)
+* Azure Resource Groups
+* Azure Monitor
+* Storage Accounts
 
 ## 🧪 Lab Modules
 
-| Module | Status |
-|---|---|
-| Resource Group | 🔄 Planned |
-| Virtual Network | 🔄 Planned |
-| Subnet | 🔄 Planned |
-| Windows Virtual Machine | 🔄 Planned |
-| Network Security Group | 🔄 Planned |
-| Storage Account | 🔄 Planned |
-| Azure Monitor | 🔄 Planned |
-| PowerShell Automation | 🔄 Planned |
+| Module                  | Status      |
+| ----------------------- | ----------- |
+| Resource Group          | ✅ Completed |
+| Virtual Network         | ✅ Completed |
+| Subnet                  | ✅ Completed |
+| Windows Virtual Machine | 🔄 Planned  |
+| Network Security Group  | ✅ Completed |
+| Storage Account         | 🔄 Planned  |
+| Azure Monitor           | 🔄 Planned  |
+| PowerShell Automation   | ✅ Completed |
 
-## 🔧 Technologies
+## 🔧 PowerShell Automation
 
-- Microsoft Azure
-- PowerShell
-- Windows Server
-- Git & GitHub
+The `scripts/` folder contains PowerShell automation for:
+
+* Creating Azure Resource Groups
+* Managing Azure Virtual Machines
+* Creating Virtual Networks and Subnets
+* Configuring Network Security Groups
+
+## 🔐 Security Note
+
+The NSG lab demonstrates RDP configuration in a controlled learning environment.
+
+For production environments, RDP should be restricted to trusted source IPs or secured through solutions such as VPN or Azure Bastion.
 
 ## 📚 Learning Focus
 
-- Azure Administration
-- Azure Networking
-- Cloud Infrastructure
-- Infrastructure Security
-- PowerShell Automation
+* Azure Administration
+* Azure Networking
+* Cloud Infrastructure
+* Infrastructure Security
+* PowerShell Automation
+* Infrastructure as Code concepts
+
+## 🚀 Future Labs
+
+* Deploy Windows Server VM
+* Configure Azure Storage
+* Azure Monitor and alerts
+* VM backup and recovery
+* Azure networking troubleshooting
+* Infrastructure automation improvements
 
 ## 👩‍💻 Author
 
